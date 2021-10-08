@@ -3,6 +3,45 @@ body {
     color: #fff;
 }
 
+.hero-img-container {
+    position: relative;
+}
+
+.hero-img {
+    max-height: 75vh;
+    object-fit: cover;
+}
+
+.hero-img-btn {
+    position: absolute;
+    bottom: 300px;
+    left: 50px;
+}
+
+.hero-img-btn2 {
+    position: absolute;
+    bottom: 300px;
+    left: 160px;
+}
+
+.btn-transparent {
+    border: none !important;
+    outline: none;
+}
+
+h1 {
+    position: absolute;
+    bottom: 400px;
+    left: 50px;
+}
+
+.movie-description {
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+    width: 40vw;
+}
+
 .netflix-red {
     color: #E50914;
 }
@@ -83,4 +122,73 @@ footer div div p:hover{
 .copyright:hover {
     color: #ffffff80;  
     cursor: default;
+}
+
+
+@media screen and (max-width: 920px) {
+    .movie-description {
+        bottom: 100px;
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .movie-description {
+        bottom: 75px;
+        left: 50px;
+    }
+    .hero-img-btn {
+        bottom: 275px;
+    }
+    
+    .hero-img-btn2 {
+        bottom: 275px;
+    }
+    
+    h1 {
+        bottom: 350px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .movie-description {
+        bottom: 50px;
+        left: 30px;
+        width: 50vw;
+    }
+    .hero-img-btn {
+        bottom: 225px;
+        left: 30px;
+    }
+    
+    .hero-img-btn2 {
+        bottom: 225px;
+        left: 135px;
+    }
+    
+    h1 {
+        bottom: 300px;
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .movie-description {
+        display: none;
+    }
+    .hero-img-btn {
+        bottom: 150px;
+        left: 30px;
+    }
+    
+    .hero-img-btn2 {
+        bottom: 150px;
+        left: 135px;
+    }
+    
+    h1 {
+        bottom: 250px;
+        left: 30px;
+    }
 }
