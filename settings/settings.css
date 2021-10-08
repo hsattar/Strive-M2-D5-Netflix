@@ -48,3 +48,31 @@ h2 {
 .grey-text {
     color: #afafaf;
 }
+
+.dark-grey-text {
+    color: #4d4d4d;
+}
+
+.border-top-grey {
+    border-top: 2px solid #afafaf;
+}
+
+.grey-btn {
+    background-color: #ebe7e7;
+}
+
+.grey-btn:hover {
+    background-color: #cccccc;
+}
+
+.profile-avatar {
+    height: 30px;
+}
+
+.ultra-hd {
+    height: 10px;
+}
+
+.pay-pal-logo {
+    height: 20px;
+}
