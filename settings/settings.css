@@ -1,0 +1,50 @@
+/* NAVBAR STYLE */
+
+nav {
+    background-color: #222;
+}
+
+.netflix-red {
+    color: #E50914;
+}
+
+.navbar-bg-black {
+    background-color: #222;
+}
+
+.netflix-logo {
+    height: 50px;
+}
+
+.profile-type {
+    color: #ffffff80
+}
+
+.profile-type:hover {
+    color: #ffffffcc;
+    cursor: pointer;
+}
+
+.avatar {
+    height: 35px;
+}
+
+.dropdown-toggle {
+    color: #fff;
+}
+
+.dropdown-toggle:hover {
+    color: #fff;
+}
+
+
+/* SETTINGS */
+/* ACCOUNT + MEMBERSHIP & BILLING*/
+
+h2 {
+    font-weight: normal;
+}
+
+.grey-text {
+    color: #afafaf;
+}

@@ -1,0 +1,86 @@
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+.netflix-red {
+    color: #E50914;
+}
+
+.navbar-bg-black {
+    background-color: #222;
+}
+
+.netflix-logo {
+    height: 50px;
+}
+
+.profile-type {
+    color: #ffffff80
+}
+
+.profile-type:hover {
+    color: #ffffffcc;
+    cursor: pointer;
+}
+
+.avatar {
+    height: 35px;
+}
+
+.dropdown-toggle {
+    color: #fff;
+}
+
+.dropdown-toggle:hover {
+    color: #fff;
+}
+
+.bg-black {
+    background-color: rgb(19, 19, 19);
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    color: #222;
+}
+
+.bi-list,
+.bi-grid-3x2-gap {
+    color: #ffffff80;
+    border: 1px solid #ffffff80;
+    padding: 0 .5rem;
+}
+
+.social-icons i {
+    font-size: 1.5rem;
+}
+
+.btn-transparent {
+    background-color: #222;
+    border: 1px solid #ffffff80;
+    color: #ffffff80;
+}
+
+.btn-transparent:hover {
+    color: #ffffffcc;
+}
+
+footer div i,
+footer div div p{
+    color: #ffffff80;   
+}
+
+footer div i:hover,
+footer div div p:hover{
+    color: #ffffffcc;    
+    cursor: pointer;
+}
+
+.copyright:hover {
+    color: #ffffff80;  
+    cursor: default;
+}
