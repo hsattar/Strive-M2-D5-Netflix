@@ -59,8 +59,12 @@ body {
 }
 
 .btn-transparent {
-    border: none !important;
-    outline: none;
+    background-color: #222;
+    color: #ffffff80;
+}
+
+.btn-transparent:hover {
+    color: #ffffffcc;
 }
 
 .movie-title {
