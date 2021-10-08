@@ -225,3 +225,23 @@ footer div div p:hover{
         left: 30px;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .hero-img-btn,
+    .hero-img-btn2 {
+        display: none;
+    }
+    
+    .movie-title {
+        bottom: 200px;
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+     
+    .movie-title {
+        bottom: 175px;
+        left: 30px;
+    }
+}
