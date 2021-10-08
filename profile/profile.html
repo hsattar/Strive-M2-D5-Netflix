@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="profile.css" />
     <title>Netflix Clone</title>
   </head>
-  <body style="background: black">
-    <nav class="navbar navbar-light" style="background: black">
+  <body>
+    <nav class="navbar navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="../home/home.html">
           <img
             src="../assets/netflix_logo.png"
             alt="Logo"
@@ -26,38 +26,35 @@
         </a>
       </div>
     </nav>
-    <div class="container mt-5" style="max-width: 400px; margin: auto">
-      <div class="row" style="border-bottom: 1px solid #333">
-        <h2 class="col text-white">Edit Profile</h2>
+    <div class="container py-4 mt-5" id="main">
+      <div class="row border-secondary border-bottom">
+        <h2 class="col text-white px-0">Edit Profile</h2>
       </div>
-      <div class="row">
-        <div class="col-3 text-white" style="position: relative">
-          <img
-            src="../assets/avatar.png"
-            alt="Profile picture"
-            width="100%"
-          /><svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-pencil-fill"
-            viewBox="0 0 16 16"
-            style="position: absolute; top: 50px; left: 20px"
-          >
-            <path
-              d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"
-            />
-          </svg>
+      <div class="row border-secondary border-bottom">
+        <div class="col-3 text-white py-3 px-0" id="profilePic">
+          <img src="../assets/avatar.png" alt="Profile picture" width="100%" />
+          <div id="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-pencil-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"
+              />
+            </svg>
+          </div>
         </div>
         <div class="col-9">
-          <div style="border-bottom: 1px solid #333" id="profile">
-            <h4 class="text-white bg-secondary">Strive Student</h4>
+          <div class="border-secondary border-bottom py-3" id="profile">
+            <p class="text-white bg-dark p-2">Strive Student</p>
             <div id="language">
-              <h5 class="text-secondary">Language:</h5>
+              <p class="text-secondary m-0">Language:</p>
               <select
-                class="form-select text-white"
-                style="background: black"
+                class="form-select text-white bg-black p-1"
                 aria-label="Select language"
               >
                 <option value="1" selected>English</option>
@@ -67,19 +64,21 @@
               </select>
             </div>
           </div>
-          <div style="border-bottom: 1px solid #333" id="settings">
-            <h4 class="text-secondary">Maturity Settings:</h4>
-            <h5 class="text-white bg-secondary">ALL MATURITY RATTINGS</h5>
+          <div class="border-secondary border-bottom py-3" id="settings">
+            <p class="text-secondary">Maturity Settings:</p>
+            <p class="text-white fw-bold bg-dark p-2" id="maturityRatings">
+              ALL MATURITY RATTINGS
+            </p>
             <p class="text-white">
               Show titles for <strong>all maturity rattings</strong> for this
               profile
             </p>
-            <button type="button" class="btn btn-outline-secondary">
+            <button type="button" class="btn btn-outline-secondary px-4">
               Edit
             </button>
           </div>
-          <div style="border-bottom: 1px solid #333" id="autoplay">
-            <h4 class="text-secondary">Autoplay controls</h4>
+          <div class="py-3" id="autoplay">
+            <p class="text-secondary">Autoplay controls</p>
             <div class="autoplay-item">
               <div class="form-check text-white">
                 <input
@@ -112,11 +111,22 @@
         </div>
       </div>
       <div class="row" id="buttons">
-        <button type="button" class="btn btn-light text-uppercase">Save</button>
-        <button type="button" class="btn btn-outline-secondary text-uppercase">
+        <button
+          type="button"
+          class="btn btn-light text-uppercase px-4 my-3 mr-4"
+        >
+          Save
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-secondary text-uppercase px-4 my-3 mr-4"
+        >
           Cancel
         </button>
-        <button type="button" class="btn btn-outline-secondary text-uppercase">
+        <button
+          type="button"
+          class="btn btn-outline-secondary text-uppercase px-4 my-3 mr43"
+        >
           Delete profile
         </button>
       </div>
