@@ -16,11 +16,11 @@ body {
 }
 
 .profile-type {
-    color: rgba(255,255,255,.5)
+    color: #ffffff80
 }
 
 .profile-type:hover {
-    color: rgba(255,255,255,.8);
+    color: #ffffffcc;
     cursor: pointer;
 }
 
@@ -50,7 +50,37 @@ body {
 
 .bi-list,
 .bi-grid-3x2-gap {
-    color: rgba(255,255,255,.5);
-    border: 1px solid rgba(255,255,255,.5);
+    color: #ffffff80;
+    border: 1px solid #ffffff80;
     padding: 0 .5rem;
+}
+
+.social-icons i {
+    font-size: 1.5rem;
+}
+
+.btn-transparent {
+    background-color: #222;
+    border: 1px solid #ffffff80;
+    color: #ffffff80;
+}
+
+.btn-transparent:hover {
+    color: #ffffffcc;
+}
+
+footer div i,
+footer div div p{
+    color: #ffffff80;   
+}
+
+footer div i:hover,
+footer div div p:hover{
+    color: #ffffffcc;    
+    cursor: pointer;
+}
+
+.copyright:hover {
+    color: #ffffff80;  
+    cursor: default;
 }
