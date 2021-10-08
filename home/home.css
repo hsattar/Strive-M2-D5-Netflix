@@ -1,5 +1,6 @@
 body {
     background-color: #222;
+    color: #fff;
 }
 
 .netflix-red {
@@ -33,4 +34,23 @@ body {
 
 .dropdown-toggle:hover {
     color: #fff;
+}
+
+.bg-black {
+    background-color: rgb(19, 19, 19);
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    color: #222;
+}
+
+.bi-list,
+.bi-grid-3x2-gap {
+    color: rgba(255,255,255,.5);
+    border: 1px solid rgba(255,255,255,.5);
+    padding: 0 .5rem;
 }
