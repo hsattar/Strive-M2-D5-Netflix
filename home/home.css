@@ -132,13 +132,13 @@ body {
     font-size: 1.5rem;
 }
 
-.btn-transparent {
+.transparent-btn {
     background-color: #222;
     border: 1px solid #ffffff80;
     color: #ffffff80;
 }
 
-.btn-transparent:hover {
+.transparent-btn:hover {
     color: #ffffffcc;
 }
 
