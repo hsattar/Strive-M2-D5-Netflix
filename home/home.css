@@ -13,3 +13,24 @@ body {
 .netflix-logo {
     height: 50px;
 }
+
+.profile-type {
+    color: rgba(255,255,255,.5)
+}
+
+.profile-type:hover {
+    color: rgba(255,255,255,.8);
+    cursor: pointer;
+}
+
+.avatar {
+    height: 35px;
+}
+
+.dropdown-toggle {
+    color: #fff;
+}
+
+.dropdown-toggle:hover {
+    color: #fff;
+}
