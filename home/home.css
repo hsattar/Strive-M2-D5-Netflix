@@ -1,3 +1,36 @@
+/* CAROUSEL */
+
+body{
+    background-color:rgb(44, 43, 43)
+} 
+h4 ,h1{
+    color: wheat;
+}
+.prime-logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 25%;
+  border-radius: 8px;
+}
+.h1{
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom:15px
+
+}
+span{
+    color:cadetblue
+}
+.images{
+width: 200px;
+height: 200px;
+object-fit: cover;
+border-radius: 8px;
+}
+
+/* REST OF THE PAGE */
+
 body {
     background-color: #222;
     color: #fff;
@@ -29,7 +62,7 @@ body {
     outline: none;
 }
 
-h1 {
+.movie-title {
     position: absolute;
     bottom: 400px;
     left: 50px;
@@ -145,7 +178,7 @@ footer div div p:hover{
         bottom: 275px;
     }
     
-    h1 {
+    .movie-title {
         bottom: 350px;
     }
 }
@@ -167,7 +200,7 @@ footer div div p:hover{
         left: 135px;
     }
     
-    h1 {
+    .movie-title {
         bottom: 300px;
         left: 30px;
     }
@@ -187,7 +220,7 @@ footer div div p:hover{
         left: 135px;
     }
     
-    h1 {
+    .movie-title {
         bottom: 250px;
         left: 30px;
     }
