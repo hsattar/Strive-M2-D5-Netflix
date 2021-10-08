@@ -16,9 +16,14 @@ body {
 }
 
 #icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: black;
+  border: 1px solid white;
   position: absolute;
   top: 110px;
-  left: 10px;
+  left: 20px;
 }
 
 #profilePic {
@@ -32,6 +37,10 @@ body {
 @media (max-width: 500px) {
   #icon {
     top: 21vw;
-    left: 10%;
+    left: 20%;
+  }
+  #svgIcon {
+    width: 10px;
+    height: 10px;
   }
 }
